@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Rating from "./Rating";
 import Pagination from "./Pagination";
-import products from "../../data/Products";
+// import products from "../../data/Products"; 🙂
+import axios from "axios";
+
 const ShopSection = () => {
+    const [products, setProducts] = useState([]); // onek gula product jehetu .. ejonno array
+
+    useEffect(() => {
+        console.log("1️⃣ Hello from homeComponent > ShopSection : 😀 ");
+        const fetchProducts = async () => {
+            // karon amake kono ekta kajer jonno await korte hobe
+            const { data } = await axios.get("/api/products");
+            setProducts(data);
+        };
+        fetchProducts(); // function likhlei hobe na .. call o korte hobe ..
+    }, []);
+
     return (
         <div className="container">
             <div className="section">
