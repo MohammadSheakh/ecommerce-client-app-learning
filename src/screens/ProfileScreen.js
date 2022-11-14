@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import ProfileTabs from "../components/ProfileComponents/ProfileTabs";
 import Orders from "../components/ProfileComponents/Orders";
 
-const ProfileScreen = () => {
+function ProfileScreen() {
     window.scrollTo(0, 0);
     return (
         <>
@@ -75,7 +75,7 @@ const ProfileScreen = () => {
             </div>
         </>
     );
-};
+}
 export default ProfileScreen;
 
 // aria-controls="v-pills-profile"

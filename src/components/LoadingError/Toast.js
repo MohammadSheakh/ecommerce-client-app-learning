@@ -1,6 +1,6 @@
 import React from "react";
 import { ToastContainer } from "react-toastify";
-const Toast = () => {
+function Toast() {
     return (
         <div>
             <ToastContainer
@@ -13,5 +13,5 @@ const Toast = () => {
             {/* Same as */}
         </div>
     );
-};
+}
 export default Toast;

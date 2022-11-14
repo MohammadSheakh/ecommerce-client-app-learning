@@ -1,5 +1,5 @@
 import React from "react";
-const Orders = () => {
+function Orders() {
     return (
         <div className=" d-flex justify-content-center align-items-center flex-column">
             {/* <div className="col-12 alert alert-info text-center mt-3"> No Orders <Link
@@ -43,5 +43,5 @@ START SHOPPING </Link> </div> */}
             </div>
         </div>
     );
-};
+}
 export default Orders;

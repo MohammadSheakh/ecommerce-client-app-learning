@@ -1,6 +1,6 @@
 import React from "react";
 // rsc
-const CalltoActionSection = () => {
+function CalltoActionSection() {
     return (
         <div className="subscribe-section bg-with-black">
             <div className="container">
@@ -27,5 +27,5 @@ const CalltoActionSection = () => {
             </div>
         </div>
     );
-};
+}
 export default CalltoActionSection;

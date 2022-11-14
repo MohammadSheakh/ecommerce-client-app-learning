@@ -1,5 +1,5 @@
 import React from "react";
-const ProfileTabs = () => {
+function ProfileTabs() {
     return (
         <form className="row form-container">
             <div className="col-md-6">
@@ -29,5 +29,5 @@ const ProfileTabs = () => {
             <button type="submit">Update Profile</button>
         </form>
     );
-};
+}
 export default ProfileTabs;

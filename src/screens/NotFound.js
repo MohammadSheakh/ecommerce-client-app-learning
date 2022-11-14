@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./../components/Header";
-const NotFound = () => {
+function NotFound() {
     return (
         <>
             <Header />
@@ -30,6 +30,6 @@ const NotFound = () => {
             </div>
         </>
     );
-}; // 17: 58
+} // 17: 58
 
 export default NotFound;

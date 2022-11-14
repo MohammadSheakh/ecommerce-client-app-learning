@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Pagination = () => {
+function Pagination() {
     return (
         <nav>
             <ul className="pagination justify-content-center">
@@ -31,5 +31,5 @@ const Pagination = () => {
             </ul>
         </nav>
     );
-};
+}
 export default Pagination;

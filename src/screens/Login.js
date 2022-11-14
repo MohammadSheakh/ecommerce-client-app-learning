@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./../components/Header";
-const Login = () => {
+function Login() {
     window.scrollTo(0, 0);
     return (
         <>
@@ -18,5 +18,5 @@ const Login = () => {
             </div>
         </>
     );
-};
+}
 export default Login;

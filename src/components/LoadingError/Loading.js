@@ -1,5 +1,5 @@
 import React from "react";
-const Loading = () => {
+function Loading() {
     return (
         <div className="d-flex justify-content-center">
             <div
@@ -11,5 +11,5 @@ const Loading = () => {
             </div>
         </div>
     );
-};
+}
 export default Loading;

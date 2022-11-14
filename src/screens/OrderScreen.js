@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "./../components/Header";
 //import { PayPalButton } from "react-paypal-button-V2";
 
-const OrderScreen = () => {
+function OrderScreen() {
     window.scrollTo(0, 0);
     return (
         <>
@@ -138,5 +138,5 @@ const OrderScreen = () => {
             </div>
         </>
     );
-};
+}
 export default OrderScreen; // 18:10

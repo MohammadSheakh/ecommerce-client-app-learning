@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
-const ShippingScreen = () => {
+function ShippingScreen() {
     window.scrollTo(0, 0);
     const submitHandler = (e) => {
         e.preventDefault();
@@ -29,5 +29,5 @@ const ShippingScreen = () => {
             </div>{" "}
         </>
     );
-};
+}
 export default ShippingScreen;

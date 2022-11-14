@@ -1,5 +1,5 @@
 import React from "react";
-const ContactInfo = () => {
+function ContactInfo() {
     return (
         <div className="contactInfo container">
             <div className="row">
@@ -34,5 +34,5 @@ const ContactInfo = () => {
             </div>
         </div>
     );
-};
+}
 export default ContactInfo;

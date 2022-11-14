@@ -1,5 +1,5 @@
 import React from "react";
-const Rating = ({ value, text }) => {
+function Rating({ value, text }) {
     return (
         <div className="rating">
             <i
@@ -50,5 +50,5 @@ const Rating = ({ value, text }) => {
             ></i>
         </div>
     );
-};
+}
 export default Rating;

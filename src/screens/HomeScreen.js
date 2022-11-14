@@ -1,13 +1,15 @@
 import React from "react";
-import Header from "./../components/Header";
+import Header from "../components/Header";
 import ShopSection from "./../components/homeComponents/ShopSection";
 import ContactInfo from "./../components/homeComponents/ContactInfo";
 import CalltoActionSection from "./../components/homeComponents/CalltoActionSection";
 import Footer from "./../components/Footer";
-const HomeScreen = () => {
-    window.scrollTo(0, 0);
+function HomeScreen() {
+    // window.scrollTo(0, 0);
+    console.log("HOmeScreen ⌛⌛");
     return (
         <div>
+            fdf
             <Header />
             <ShopSection />
             <CalltoActionSection />
@@ -15,5 +17,5 @@ const HomeScreen = () => {
             <Footer />
         </div>
     );
-};
+}
 export default HomeScreen;

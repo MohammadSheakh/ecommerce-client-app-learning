@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./../components/Header";
-const PlaceOrderScreen = () => {
+function PlaceOrderScreen() {
     window.scrollTo(0, 0);
     const placeOrderHandler = (e) => {
         e.preventDefault();
@@ -133,6 +133,6 @@ const PlaceOrderScreen = () => {
             </div>
         </>
     );
-};
+}
 
 export default PlaceOrderScreen;

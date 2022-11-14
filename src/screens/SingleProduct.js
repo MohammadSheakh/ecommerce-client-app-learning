@@ -6,7 +6,7 @@ import Message from "../components/LoadingError/Error";
 import products from "../data/Products";
 import axios from "axios";
 
-const SingleProduct = ({ match }) => {
+function SingleProduct({ match }) {
     // const product = products.find((p) => p._id === match.params.id);
 
     const [product, setProduct] = useState({}); // ekta product jehetu .. ejonno object
@@ -155,6 +155,6 @@ const SingleProduct = ({ match }) => {
             </div>
         </>
     );
-};
+}
 
 export default SingleProduct;
